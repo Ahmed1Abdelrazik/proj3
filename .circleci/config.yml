@@ -43,11 +43,11 @@ jobs:
             echo "TODO: Build the frontend app"
             npm run frontend:build
       # testing frontend app
-      -run:
+      - run:
           name: Test Front-end
           command: |
             npm run frontend:test
-            
+
       # TODO: Build the backend API
       - run:
           name: API Build
