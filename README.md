@@ -34,7 +34,7 @@ the project consists of two apps
 
 # Pipeline process:
 
-![Diagram](Diagrams/pipeline.png.png)
+![Diagram](Diagrams/pipeline.png)
 
 1. orbs include installing node, aws and aws-cli
 2. jobs: includes
