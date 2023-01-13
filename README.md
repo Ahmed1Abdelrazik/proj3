@@ -13,7 +13,7 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### Infrastructure of the project:
 
-![Diagram](Diagrams/infrastrucure.png)
+![Diagram](Diagrams/infrastructure.png)
 
 the project consists of two apps
 
