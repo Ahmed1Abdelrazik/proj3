@@ -13,7 +13,7 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### Infrastructure of the project:
 
-![Diagram](documentation/Diagrams/Infrastructure.png)
+![Diagram](Diagrams/Infrastructure.png)
 
 the project consists of two apps
 
@@ -34,7 +34,7 @@ the project consists of two apps
 
 # Pipeline process:
 
-![Diagram](documentation/Diagrams/pipeline.png)
+![Diagram](Diagrams/pipeline.png)
 
 1. orbs include installing node, aws and aws-cli
 2. jobs: includes
@@ -56,6 +56,4 @@ the project consists of two apps
    "node": ">=16.0.0"
    }
 ```
-
-4. zip command removed from packages inside the api, since when we deploy the app zipping file is done automatically.
-5. Iam keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)created and used in the configuration of pipeline :
+4. Iam keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)created and used in the configuration of pipeline.
