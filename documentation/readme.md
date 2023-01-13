@@ -12,45 +12,18 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 3. Elastic beanstalk url:
    https://Api-env.eba-cypwy9cp.us-east-1.elasticbeanstalk.com
 
-### Infrastructure of the project
-
-the project consists of two apps
-
-1. udagram-frontend:
-   responsible for hosting the the project,
-
-2. udagram-api:
-   the backend of the project, and provides services of the project.
-   and it connects to the database.
-
-### Dependencies:
-
-- Node v14.15.0
-- npm 6.14.8
-- AWS CLI v2
-- A RDS database running Postgres
-- A S3 bucket for hosting the frontend.
-
-### Steps I have done To run the app
+### Step I have done To run the app
 
 1. I created the database (mydb2)
 2. variables changed in EB
 3. in package.json inside udagram-api:
-
-```
    "engines": {
    "npm": ">=7.0.0",
    "node": ">=16.0.0"
    }
-```
-
 4. I removed zip command, as when we deploy the app zipping file is done automatically
 
 # On Piplines:
 
 5.  removed profile name eb-cli from aws config
 6.  set profile: default
-
-```
-
-```
