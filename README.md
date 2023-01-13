@@ -57,6 +57,4 @@ the project consists of two apps
    }
 ```
 
-4. zip command removed from packages inside the api, since when we deploy the app zipping file is done automatically.
-5. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used in the configuration of pipeline.
-6.
+4. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used in the configuration of pipeline.
