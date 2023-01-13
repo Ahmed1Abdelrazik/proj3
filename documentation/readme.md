@@ -56,4 +56,5 @@ the project consists of two apps
    "node": ">=16.0.0"
    }
 ```
-4. Iam keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)created and used in the configuration of pipeline.
+
+4. Iam keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)created and used it in the configuration of pipeline.
