@@ -1,10 +1,7 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 
-// ENV variables 
-// - AWS_ACCESS_KEY_ID
-// - AWS_SECRET_ACCESS_KEY
-// Are Also needed
+
 
 export const config ={
   username: `${process.env.POSTGRES_USERNAME}`,
@@ -20,5 +17,4 @@ export const config ={
     secret: process.env.JWT_SECRET_KEY,
   },
 };
-console.log("hello from config");
-console.log(config.username, config.password)
+
