@@ -57,4 +57,4 @@ the project consists of two apps
    }
 ```
 
-4. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used in the configuration of pipeline.
+4. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used it in the configuration of pipeline.
