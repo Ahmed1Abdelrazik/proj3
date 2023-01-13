@@ -13,7 +13,7 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### Infrastructure of the project:
 
-![Diagram](Infrastructure.png)
+![Diagram](documentation/Diagrams/Infrastructure.png)
 
 the project consists of two apps
 
@@ -21,7 +21,7 @@ the project consists of two apps
    responsible for hosting the the project,
 
 2. udagram-api:
-   the backend of the project, and provides services of the project.
+   the backend of the project, and provides services of the website (eg. User registration).
    and it connects to the database.
 
 ### Dependencies:
@@ -34,7 +34,7 @@ the project consists of two apps
 
 # Pipeline process:
 
-![Diagram](pipeline.png)
+![Diagram](documentation/Diagrams/pipeline.png)
 
 1. orbs include installing node, aws and aws-cli
 2. jobs: includes
@@ -46,9 +46,9 @@ the project consists of two apps
 
 ### Steps I have done To run the app:
 
-1. I created the database (mydb2)
-2. variables changed in EB
-3. in package.json inside udagram-api:
+1. I created the database (mydb2) via aws RDS.
+2. I added the Environment variables in Elastic Beanstalk Configuration.
+3. in package.json inside udagram-api i added the following:
 
 ```
    "engines": {
@@ -57,4 +57,6 @@ the project consists of two apps
    }
 ```
 
-4. I removed zip command, as when we deploy the app zipping file is done automatically
+4. zip command removed from packages inside the api, since when we deploy the app zipping file is done automatically.
+5. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used in the configuration of pipeline.
+6.
