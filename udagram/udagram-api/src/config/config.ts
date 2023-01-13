@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 
-
+//central configuration file 
 
 export const config ={
   username: `${process.env.POSTGRES_USERNAME}`,
