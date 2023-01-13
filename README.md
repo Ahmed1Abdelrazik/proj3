@@ -13,7 +13,7 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### Infrastructure of the project:
 
-![Diagram](Diagrams/infrastrucure.png)
+![Diagram](Infrastructure.png)
 
 the project consists of two apps
 
@@ -34,7 +34,7 @@ the project consists of two apps
 
 # Pipeline process:
 
-![Diagram](Diagrams/pipeline.png)
+![Diagram](pipeline.png)
 
 1. orbs include installing node, aws and aws-cli
 2. jobs: includes
