@@ -13,8 +13,6 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### Infrastructure of the project:
 
-![Diagram](documentation/Diagrams/Infrastructure.png)
-
 the project consists of two apps
 
 1. udagram-frontend:
@@ -33,8 +31,6 @@ the project consists of two apps
 - A S3 bucket for hosting the frontend.
 
 # Pipeline process:
-
-![Diagram](documentation/Diagrams/pipeline.png)
 
 1. orbs include installing node, aws and aws-cli
 2. jobs: includes
@@ -58,3 +54,9 @@ the project consists of two apps
 ```
 
 4. I have Set up IAM Keys (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) and used it in the configuration of pipeline.
+
+### updates:
+
+1. Environment variables has been set via circleCi
+2. removing set_env variables from backend
+3. Infrastructure description, app dependencies and pipeline process is in separate .MD
