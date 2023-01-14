@@ -19,6 +19,6 @@ http://randombucket135898.s3-website-us-east-1.amazonaws.com/
 
 ### updates:
 
-1. Environment variables has been set via circleCi
-2. set_env.sh file has been removed from app backend
-3. Infrastructure description, app dependencies and pipeline process are in separate .md
+1. Environment variables is being set via circleCi.
+2. set_env.sh file has been removed from app backend.
+3. Infrastructure description, app dependencies and pipeline process are in separate .md file.
