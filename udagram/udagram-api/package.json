@@ -13,7 +13,7 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "npm run build && cd www && eb list && eb use Api-env && eb deploy &&sh ./bin/deploy.sh",
+    "deploy": "npm run build && cd www && eb list && eb use Api-env && eb deploy &&eb setenv PORT=$POSTGRES_PORT",
     "build": "npm install && npm run tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
